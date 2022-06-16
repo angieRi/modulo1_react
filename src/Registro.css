@@ -1,0 +1,53 @@
+.registro {
+    width: 70%;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+    border: 2px solid #40deed;
+}
+.container_registro {
+    border: 1px solid transparent;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+}
+
+section > h1 {
+    margin-top: 1rem;
+    color: #3eb2cb;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #40deed;
+    resize:none;
+    color: white;
+
+}
+.btn {
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    display: inline-block;
+    color:white ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    background-color:#40deed;
+
+}
+.btn:hover{
+    background:  #182129;
+    color: #82d3e4;
+    border: 2px solid #40deed;
+}
